@@ -1,0 +1,40 @@
+{
+  "name": "malmon-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dotenv -e .env -- nodemon ./src/app.js",
+    "start": "dotenv -e .env node ./src/app.js",
+    "setup": "dotenv -e .env node ./src/setup.js",
+    "lint": "eslint ./**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "^7.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.7.1",
+    "xss": "^1.0.10"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^3.0.1"
+  }
+}

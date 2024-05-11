@@ -1,0 +1,12 @@
+.layout {
+
+  &__link:hover {
+    text-decoration: underline;
+  }
+
+  &__main {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+  }
+
+}

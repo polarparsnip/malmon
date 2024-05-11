@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# misc
+.DS_Store
+*.pem
+dist
+*.log
+.vscode
+sql/insert.sql
+temp
+uploads
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env*

@@ -1,0 +1,26 @@
+.card {
+    
+    &__cardContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: calc(var(--spacing)*0.2);
+    }
+
+    &__cardImage {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: calc(var(--spacing)*0.5);
+    }
+
+    &__cardImg {
+        max-height: calc(var(--spacing)*12);
+        max-width: calc(var(--spacing)*20);
+    }
+
+    &__link:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
